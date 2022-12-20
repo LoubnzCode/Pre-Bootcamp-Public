@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Style2.css">
+</head>
+<body>
+    <header>    
+            <h> Profile </h> 
+                <ul id = "NavLinksList">
+                    <li><a>Home</a></li>
+                    <li Id ="ActiveLink"><a>My Profile</a></li>
+                    <li><a>Find Connections</a></li>
+                </ul>    
+                    <input Id ="SignOutBtn" type="button" value="Sign Out">                  
+    </header>
+    <div class="CardFrame">
+        <div id="ProfilePicBlock">
+            <img id = "ProfilePicID"src="ProfilePic.png" alt="Profile Picture">
+        </div>
+        
+        <div class="UserDataClass">                
+                <p id="UserName">John Doe</p>            
+            <div id="Location">
+                <p><img id = "LocationImgID"src="map-marker.png" alt="map-marker Icon"> 
+                <em id = "LocationID">Florida</em>
+                </p>
+            </div>
+
+            <ul class="Skill_List">
+                 <li>Developer |</li>
+                 <li> Engineer |</li>
+                 <li> Problem Solver</li>
+            </ul>           
+            <p>Master of the shadows and the Internet!</p>
+            <div id ="EditSettingID">
+                <p><img id = "GearIconId" src="gear.png" alt="Gear Icon">
+                    <a href="" >edit profile</a>
+                </p>
+            </div>
+        </div>
+    </div>  
+
+    <Div class="NewConnentionRequestFrame">
+        <div id = "Banners"> <span id = "ItemCounts">2</span> <a>Connection Requests</a></div>
+        <ul class="NewConnectionRequestsList">
+            <li id="RecordLine">
+            <div><img id = "ConnectionProfilePic"src="ProfilePic.png" alt="Profile Picture"> </div> 
+                <p id="NewRequesterName">Todd E </p>
+                    <div> <img Id ="RequestReponseImg" src="accept-circle.png" alt="accept-circle Icon" ></div>
+                    <div> <img Id ="RequestReponseImg" src="Close-circle.png" alt="Close-circle Icon" ></div>               
+            </li>
+            <li id="RecordLine">
+                <div><img id = "ConnectionProfilePic"src="ProfilePic.png" alt="Profile Picture"> </div> 
+                    <p id="NewRequesterName">Phil K </p>
+                        <div> <img Id ="RequestReponseImg" src="accept-circle.png" alt="accept-circle Icon" ></div>
+                        <div> <img Id ="RequestReponseImg" src="Close-circle.png" alt="Close-circle Icon" ></div>               
+                </li>
+        </ul>
+    </Div>
+
+    <Div class="ConnentionsFrame">
+        <div id = "Banners"> <span id = "ItemCounts">500+</span> <a>Your Connections</a></div>
+        <ul class="NewConnectionRequestsList">
+            <li id="RecordLine">
+            <div><img id = "ConnectionProfilePic"src="ProfilePic.png" alt="Profile Picture"> </div> 
+                <p id="NewRequesterName">Adrien D </p>              
+            </li>
+            <li id="RecordLine">
+                <div><img id = "ConnectionProfilePic"src="ProfilePic.png" alt="Profile Picture"> </div> 
+                    <p id="NewRequesterName">Anne J </p>              
+            </li>
+            <li id="RecordLine">
+                <div><img id = "ConnectionProfilePic"src="ProfilePic.png" alt="Profile Picture"> </div> 
+                    <p id="NewRequesterName">Alayne J </p>              
+            </li>
+            <li id="RecordLine">
+                <div><img id = "ConnectionProfilePic"src="ProfilePic.png" alt="Profile Picture"> </div> 
+                    <p id="NewRequesterName">Arry Y</p>              
+            </li>
+        </ul>
+        <div id = ViewMoreConnectionsLink>
+            <a href="">View More</a>
+        </div>
+    </div>
+
+    <div class="EducationFrame">
+        <div Id = "Banners"> <a>Education</a></div>
+        <ul>
+            <li id="EI1">Coding Dojo - Full Stack Bootcamp</li>
+            <li id="EI2">Dec 2019 - Mar 2020</li>
+            <li id="EI3">Triple black belt in Python, MERN, and C#...</li>
+        </ul>
+    </div>
+</body>
+</html>
